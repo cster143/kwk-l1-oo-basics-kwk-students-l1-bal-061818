@@ -16,12 +16,12 @@ class Book
     @author
   end
 
-  def page_number = (pages) #setter
-    @page_number = pages
+  def page_count = (pages) #setter
+    @page_count = pages
   end
 
-  def page_number #getter
-    @page_number
+  def page_count #getter
+    @page_count
   end
 
   def genre = (genre) #setter
@@ -37,4 +37,4 @@ class Book
 end
 
 Harry_Potter = Book.new ("Sorcerer's Stone")
-Harry_Potter.turn_page 
+Harry_Potter.turn_page
