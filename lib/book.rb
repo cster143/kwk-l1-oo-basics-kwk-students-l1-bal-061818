@@ -31,6 +31,7 @@ class Book
   def genre #getter
     @genre
   end
+
   def turn_page
     puts "Flipping the page... wow, you read fast!"
   end
