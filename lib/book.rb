@@ -1,9 +1,10 @@
 
 class Book
+
   def initialize(title) #initializing
     @title= title
   end
-
+attr_acc
   def title #getter
     @title
   end
