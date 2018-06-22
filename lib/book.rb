@@ -1,5 +1,4 @@
-# book.rb
-# Add you Book class here
+
 class Book
   def initialize(title) #initializing
     @title = title
@@ -17,11 +16,19 @@ class Book
     @author
   end
 
-  def page_number = (pages)
+  def page_number = (pages) #setter
     @page_number = pages
   end
 
-  def page_number
+  def page_number #getter
     @page_number
+  end
+
+  def genre = (genre) #setter
+    @genre = genre
+  end
+
+  def genre #getter
+    @genre
   end
 end
