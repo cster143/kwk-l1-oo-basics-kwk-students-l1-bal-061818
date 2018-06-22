@@ -4,7 +4,7 @@ class Book
   def initialize(title)
     @title = title
   end
-  def title
+  def title #getter 
     @title
   end
 end
